@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VideoLab</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
     <!-- top navigation -->
@@ -27,7 +29,7 @@
         <div class="col-l">
 
             <!-- this is a placeholder replace it with a real video -->
-            <video width="710" height="400" controls muted onmouseover="playVid(this)" onmouseout="pauseVid(this)">
+            <video width="710" height="400" controls muted loop onmouseover="playVid(this)" onmouseout="pauseVid(this)">
                 <source src="assets/eclectus.mp4" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
@@ -54,7 +56,8 @@
             <h3 class="sub-header">Up Next</h3>
 
             <div class="video-small">
-                <video  class="vid-s" muted onmouseover="playVid(this); shadowOn(this)" onmouseout="pauseVid(this); shadowOff(this)">
+                <video class="vid-s" muted loop onmouseover="playVid(this); shadowOn(this)"
+                    onmouseout="pauseVid(this); shadowOff(this)">
                     <source src="assets/screaming.mp4" type="video/mp4">
                     Your browser does not support the video tag.
                 </video>
@@ -62,7 +65,8 @@
             </div>
 
             <div class="video-small">
-                <video  class="vid-s" muted onmouseover="playVid(this); shadowOn(this)" onmouseout="pauseVid(this); shadowOff(this)" >
+                <video class="vid-s" muted loop onmouseover="playVid(this); shadowOn(this)"
+                    onmouseout="pauseVid(this); shadowOff(this)">
                     <source src="assets/cat.mp4" type="video/mp4">
                     Your browser does not support the video tag.
                 </video>
@@ -70,7 +74,8 @@
             </div>
 
             <div class="video-small">
-                <video  class="vid-s" muted onmouseover="playVid(this); shadowOn(this)" onmouseout="pauseVid(this); shadowOff(this)">
+                <video class="vid-s" muted loop onmouseover="playVid(this); shadowOn(this)"
+                    onmouseout="pauseVid(this); shadowOff(this)">
                     <source src="assets/bell.mp4" type="video/mp4">
                     Your browser does not support the video tag.
                 </video>
@@ -78,7 +83,8 @@
             </div>
 
             <div class="video-small">
-                <video  class="vid-s" muted onmouseover="playVid(this); shadowOn(this)" onmouseout="pauseVid(this); shadowOff(this)">
+                <video class="vid-s" muted loop onmouseover="playVid(this); shadowOn(this)"
+                    onmouseout="pauseVid(this); shadowOff(this)">
                     <source src="assets/Destruction.mp4" type="video/mp4">
                     Your browser does not support the video tag.
                 </video>
@@ -91,4 +97,5 @@
 
     <script src="script.js"></script>
 </body>
+
 </html>

@@ -126,6 +126,12 @@ body {
 
 video {
     border-radius: 1%;
+    margin-bottom: 5px;
+    transition: all 150ms ease-in-out;
+}
+
+.video-small video:hover  {
+    transform: scale(1.2);
 }
 
 .shadow {
